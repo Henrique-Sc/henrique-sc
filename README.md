@@ -10,9 +10,9 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<p>- Estou cursando Técnico de Infomática</p>
-<p>- Pretendo fazer Desenvolvimento de Sistemas</p>
-<p>- Sou apaixonado em back-end</p>
-<p>- Minha primeira linguagem de programação que aprendi foi Python</p>
-<p>- Comecei a aprender JavaScript e PHP e já estou amando</p>
-<p>- Contate-me: henriquesc1442@gmail.com</p>
+<p>- 🎒 Estou cursando Técnico de Infomática</p>
+<p>- 💻 Pretendo fazer Desenvolvimento de Sistemas</p>
+<p>- 👨‍💻 Sou apaixonado em back-end</p>
+<p>- 🐍 Minha primeira linguagem de programação que aprendi foi Python</p>
+<p>- 🐘 Comecei a aprender JavaScript e PHP e já estou amando</p>
+<p>- 📧 Contate-me: henriquesc1442@gmail.com</p>

@@ -1,4 +1,4 @@
-<h2>Oii! Eu sou o Henrique!</h2>
+<h1>Oii! Eu sou o Henrique!</h1>
 
 <!--
 **Henrique-Sc/henrique-sc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

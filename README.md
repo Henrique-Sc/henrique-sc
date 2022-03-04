@@ -1,9 +1,4 @@
-<h1>Oii! Eu sou o Henrique!</h1>
-
-<!--
-**Henrique-Sc/henrique-sc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+<h2>Oii! Eu sou o Henrique!</h2>
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -13,4 +8,10 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
+<p>- Estou cursando Técnico de Infomática</p>
+<p>- Pretendo fazer Desenvolvimento de Sistemas</p>
+<p>- Sou apaixonado em back-end</p>
+<p>- Minha primeira linguagem de programação que aprendi foi Python</p>
+<p>- Comecei a aprender JavaScript e PHP e já estou amando</p>
+<p>- Contate-me: henriquesc1442@gmail.com</p>

@@ -31,3 +31,5 @@
 </div>
   
 ##
+
+![Snake animation](https://github.com/rafaballerini/Henrique-Sc/blob/output/github-contribution-grid-snake.svg)

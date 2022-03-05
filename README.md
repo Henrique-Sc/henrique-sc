@@ -32,4 +32,4 @@
   
 ##
 
-![Snake animation](https://github.com/rafaballerini/Henrique-Sc/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Henrique-Sc/henrique-sc/blob/output/github-contribution-grid-snake.svg)

@@ -6,20 +6,17 @@
 <p>- 🐍 Minha primeira linguagem de programação que aprendi foi Python</p>
 <p>- 🐘 Comecei a aprender JavaScript e PHP e já estou amando</p>
 <p>- 📧 Contate-me: henriquesc1442@gmail.com</p>
+
 <br>
-<div align="center">
-  <a href="https://github.com/henrique-sc">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=henrique-sc&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henrique-sc&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
-</div>
-<br>
+
 <div align="center">
   <a href="https://github.com/rafaballerini">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rafaballerini&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaballerini&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Henrique-Sc&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henrique-Sc&layout=compact&langs_count=7&theme=dracula"/>
 </div>
+  
 <br>
+  
 <div style="display: inline_block" align="center"><br>
   <img src="https://img.icons8.com/color/48/000000/python--v2.png"/>
   <img src="https://img.icons8.com/offices/50/000000/php-logo.png"/>

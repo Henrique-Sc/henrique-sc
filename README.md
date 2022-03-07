@@ -31,7 +31,7 @@
 
 ## 
 
-### 💬 IDEs e ferramentas:
+### 💬 IDEs e utilitários:
 <div style="display: inline_block" align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="45px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="45px"/>

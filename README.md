@@ -59,12 +59,9 @@
   </a>
 </div>
 
-
-
 ##
-<a href="https://github.com/Henrique-sc">
-  ![Snake animation](https://github.com/Henrique-Sc/henrique-sc/blob/output/github-contribution-grid-snake.svg)
-</a>
+
+![Snake animation](https://github.com/Henrique-Sc/henrique-sc/blob/output/github-contribution-grid-snake.svg)
 
 
 <!--

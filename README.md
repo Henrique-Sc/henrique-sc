@@ -41,16 +41,16 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="50px"/>
 </div>
 
+##
+
 ### 🛠 Utilitários
 <div style="display: inline_block" align="center">
   <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541788928675950/icons8-chrome.svg" width="45px">
   <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541789113245696/icons8-office-365.svg" width="45px">
   <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541789348114482/icons8-equipes-da-microsoft.svg" width="45px">  
-  
-  <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046080352336/icon-photoshop.svg" width="50px">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="42px"/>
+  <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046080352336/icon-photoshop.svg" width="45px">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="45px"/>
 </div>
-
 
 ##
 

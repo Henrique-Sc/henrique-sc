@@ -39,7 +39,6 @@
   <a href="https://github.com/Henrique-sc">
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950533713668763648/pycharm-icon.svg" width="45px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45px"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="45px"/>
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046403325982/SublimeText-icon.svg" width="50px">
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539045723840533/icons8-android-studio.svg" width="45px">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="50px"/>

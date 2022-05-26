@@ -41,7 +41,7 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45px"/>
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046403325982/SublimeText-icon.svg" width="50px">
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539045723840533/icons8-android-studio.svg" width="45px">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="50px"/>
+    <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="50px"/> -->
   </a>
 </div>
 
@@ -53,7 +53,7 @@
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541788928675950/icons8-chrome.svg" width="45px">
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541789113245696/icons8-office-365.svg" width="45px">
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/950541789348114482/icons8-equipes-da-microsoft.svg" width="45px">  
-    <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046080352336/icon-photoshop.svg" width="45px">
+    <!-- <img src="https://cdn.discordapp.com/attachments/757670175485984848/950539046080352336/icon-photoshop.svg" width="45px"> -->
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="45px"/>
     <img src="https://cdn.discordapp.com/attachments/757670175485984848/951097337659412480/virtualbox-icon.svg" width="45px">
   </a>

@@ -1,4 +1,7 @@
-## Olá mundo!! Eu sou o Henrique!
+<div align="center">
+  <h1>Hello World!!</h1>
+  <h2>developerName = "Henrique"</h2>
+</div>
 
 <p>- 🎒 Estou cursando Técnico de Infomática</p>
 <p>- 💻 Pretendo fazer Desenvolvimento de Sistemas</p>

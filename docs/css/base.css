@@ -1,0 +1,121 @@
+:root {
+  --color-bg: #151515;
+  --color-text: #ffffff;
+  --color-primary: #479AFA;
+}
+
+@font-face {
+  font-family: "ClearSans-Regular";
+  src: url(../fonts/ClearSans/ClearSans-Regular.ttf);
+}
+@font-face {
+  font-family: "ClearSans-Light";
+  src: url(../fonts/ClearSans/ClearSans-Light.ttf);
+}
+@font-face {
+  font-family: "ClearSans-Thin";
+  src: url(../fonts/ClearSans/ClearSans-Thin.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "ClearSans-Thin";
+  font-size: 18px;
+}
+
+.navbar {
+  max-width: 100%;
+  height: 100px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar .left-content {
+  height: 100%;
+}
+.navbar .left-content .quadrado-hachurado {
+  height: 100%;
+}
+.navbar .left-content .canto {
+  height: 66%;
+  transform: translate(-50px, 20px);
+}
+.navbar .left-content h1 {
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  transform: translateY(-40%);
+}
+@media only screen and (max-width: 540px) {
+  .navbar .left-content {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .left-content img {
+    display: none;
+  }
+  .navbar .left-content h1 {
+    transform: none;
+    height: initial;
+  }
+}
+.navbar .right-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: right;
+  gap: 10px;
+}
+.navbar .right-content img {
+  height: 40px;
+}
+
+main {
+  max-width: 1500px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+main .introduction {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .introduction .wrap-text {
+  max-width: 50%;
+  float: left;
+}
+main .introduction .wrap-text .welcome {
+  font-size: 5em;
+}
+main .introduction .wrap-text .about-me {
+  border-left: #479AFA 2px solid;
+  padding-left: 20px;
+}
+main .introduction .wrap-text .about-me p {
+  display: block;
+  margin-block-end: 10px;
+}
+main .introduction img {
+  height: 175px;
+}
+
+h1, h2, h3 {
+  font-family: "ClearSans-Light";
+  font-weight: inherit;
+}
+
+h1, h2, h3, p {
+  display: inherit;
+}
+
+/*# sourceMappingURL=base.css.map */

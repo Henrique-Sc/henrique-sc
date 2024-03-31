@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     // background-color: rgba(255, 255, 255, 0.5);
 
     .left-content {
@@ -85,21 +85,23 @@ body {
 }
 
 main {
-    max-width: 1500px;
     padding-left: 40px;
     padding-right: 40px;
+    // max-width: 1500px;
 
     .introduction {
         width: 100%;
         margin-top: 60px;
+        margin-bottom: 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .wrap-text {
-            max-width: 50%;
+            max-width: 500px;
             float: left;
             .welcome {
                 font-size: 5em;
+                margin: 0;
             }
             .about-me {
                 border-left: #479AFA 2px solid;
@@ -124,4 +126,8 @@ h1, h2, h3 {
 }
 h1, h2, h3, p {
     display: inherit;
+}
+h2 {
+    margin-block: 0.83em;
+    font-size: 3em;
 }

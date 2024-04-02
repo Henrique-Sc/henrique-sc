@@ -26,6 +26,8 @@ body {
   color: var(--color-text);
   font-family: "ClearSans-Thin";
   font-size: 18px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -106,17 +108,95 @@ main .introduction .wrap-text .about-me p {
   display: block;
   margin-block-end: 10px;
 }
+@media only screen and (max-width: 740px) {
+  main .introduction img {
+    display: none;
+  }
+}
 main .introduction img {
   height: 175px;
+}
+
+.container-expansive {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.container-expansive .wrap-title {
+  cursor: pointer;
+  user-select: none;
+}
+.container-expansive .wrap-title .icon-caret {
+  font-size: 1.17em;
+  margin-right: 5px;
+}
+.container-expansive .wrap-title .icon-caret.active {
+  transform: rotate(90deg);
+  color: #479AFA;
+}
+.container-expansive .wrap-title h3 {
+  display: inline-block;
+}
+.container-expansive .wrap-content {
+  padding: 20px 40px 20px 40px;
+  display: grid;
+  gap: 35px 40px;
+  justify-content: center;
+}
+.container-expansive .wrap-content.ocult {
+  display: none;
+}
+.container-expansive .wrap-content .wrap-item {
+  display: block;
+  max-width: 250px;
+  height: 130px;
+  border-color: #FFF;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container-expansive .wrap-content .wrap-item:hover {
+  transform: scale(1.0125);
+}
+.container-expansive .wrap-content .wrap-item img {
+  float: left;
+  margin: 10px;
+  width: 100px;
+}
+.container-expansive .wrap-content .wrap-item .wrap-text {
+  padding-bottom: 10px;
+}
+.container-expansive .wrap-content .wrap-item .wrap-text .title {
+  font-family: "ClearSans-Regular";
+  margin-block-end: 5px;
+}
+@media (min-width: 687px) {
+  .container-expansive .wrap-content {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (min-width: 980px) {
+  .container-expansive .wrap-content {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+@media (min-width: 1260px) {
+  .container-expansive .wrap-content {
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+
+.border {
+  border: #ffffff 2px solid;
+  border-radius: 10px;
+}
+.border.blue {
+  border-color: #479AFA;
 }
 
 h1, h2, h3 {
   font-family: "ClearSans-Light";
   font-weight: inherit;
-}
-
-h1, h2, h3, p {
-  display: inherit;
 }
 
 h2 {

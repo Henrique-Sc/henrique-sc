@@ -156,7 +156,7 @@ main .introduction img {
   cursor: pointer;
 }
 .container-expansive .wrap-content .wrap-item:hover {
-  transform: scale(1.0125);
+  transform: scale(1.02);
 }
 .container-expansive .wrap-content .wrap-item img {
   float: left;

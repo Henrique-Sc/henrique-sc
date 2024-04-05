@@ -11,10 +11,14 @@
     <title>Henrique Sc</title>
     
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/splide.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- Splide js -->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 </head>
 <body>
     
@@ -225,11 +229,197 @@
                         <p>Advanced Skills</p>
                     </div>
                 </div>
-
             </div>
         </div>
+
+
+        <div class="title-img">
+            <h2>Projects</h2>
+            <img id="canto-bolinhas" src="imgs/elementos-graficos/canto-bolinhas.svg" alt="">
+        </div>
+
+        <h3>Softwares</h3>
+
+        <section id="splide__software" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+
+                        <div class="content">
+                            <p class="title">
+                                Web Scraping - Cotação
+                            </p>
+                            <p>
+                                Um projeto desenvolvido com o Python que visa a <span class="negrito">coleta da cotação atual</span> do dólar, euro e ouro e <span class="negrito">atualiza uma base de dados em Excel</span> com a nova cotação.
+                            </p>
+
+                            <div class="informations">
+                                <a href="https://github.com/Henrique-Sc/WebScraping-Cotacao" target="_blanck" class="link">Github</a>
+                                <div class="technologies">
+                                    <span class="technology">
+                                        <span><span class="bolinha jupyter"></span>Jupyter Notebooks</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    
+                    <li class="splide__slide">
+                        
+                        <div class="content">
+                            <p class="title">
+                                Data Science - Previsão de Vendas
+                            </p>
+                            <p>
+                                Por meio de uma Inteligência Artificial, o software analisa um banco de dados e <span class="negrito">prevê a quantidade de vendas</span> para X investimentos em marketing.
+                                
+                            </p>
+
+                            <div class="informations">
+                                <a href="https://github.com/Henrique-Sc/DataScience-Previsao-vendas" target="_blanck" class="link">Github</a>
+                                <div class="technologies">
+                                    <span class="technology">
+                                        <span><span class="bolinha jupyter"></span>Jupyter Notebooks</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    
+                    <li class="splide__slide">
+                        
+                        <div class="content">
+                            <p class="title">
+                                TCC - Técnico em Informática
+                            </p>
+                            <p>
+                                Um site sobre o nosso musical desenvolvido para a finalização do terceiro ano do ensino médio integrado ao técnico. Funções de cadastro de usuário, comentários, player de músicas, e um carrossel dos atores.
+                            </p>
+
+                            <div class="informations">
+                                <a href="https://github.com/Henrique-Sc/TCC-Tecnico-Informatica" target="_blanck" class="link">Github</a>
+                                <div class="technologies">
+                                    <span class="technology">
+                                        <span><span class="bolinha html"></span>HTML</span>
+                                    </span>
+                                    <span class="technology">
+                                        <span><span class="bolinha scss"></span>SCSS</span>
+                                    </span>
+                                    <span class="technology">
+                                        <span><span class="bolinha javascript"></span>JavaScript</span>
+                                    </span>
+                                    <span class="technology">
+                                        <span><span class="bolinha php"></span>PHP</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    
+                    <li class="splide__slide">
+                        
+                        <div class="content">
+                            <p class="title">
+                                Cadastro de Usuário
+                            </p>
+                            <p>
+                                Projeto final do curso de Python do Curso em Vídeo. O programa <span class="negrito">cadastra o nome e idade do usuário</span> e salva em um arquivo .txt. Sendo assim, possível a <span class="negrito">visualização e alteração dos dados.</span>
+                            </p>
+
+                            <div class="informations">
+                                <a href="https://github.com/Henrique-Sc/Cadastro-de-usuario" target="_blanck" class="link">Github</a>
+                                <div class="technologies">
+                                    <span class="technology">
+                                        <span><span class="bolinha python"></span>Python</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    
+                    <li class="splide__slide">
+                        
+                        <div class="content">
+                            <p class="title">
+                                Analisador de Triângulos
+                            </p>
+                            <p>
+                                Com base no comprimento dos três lado de um triângulo, o sistema analisa os dados e exibe a <span class="negrito">área, perímetro, ângulo dos três vértices, e a altura</span> entre um ponto e sua extremidade.
+                            </p>
+
+                            <div class="informations">
+                                <a href="https://github.com/Henrique-Sc/Analisador-de-triangulos" target="_blanck" class="link">Github</a>
+                                <div class="technologies">
+                                    <span class="technology">
+                                        <span><span class="bolinha python"></span>Python</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+            </div>
+          </section>
+
+
+          <h3>Technical Drawing</h3>
+
+          <section id="splide__drawing" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho1.png" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho2.png" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho3.png" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho4.png" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho5.png" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="content">
+                            <img src= "imgs/desenhos/desenho6.png" alt="">
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            
+            <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+            </div>
+          </section>
+
     </main>
 
     <script src="scripts/grid-expansive.js"></script>
+    <script src="scripts/splide.js"></script>
 </body>
 </html>

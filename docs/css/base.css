@@ -83,6 +83,7 @@ body {
 main {
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 40px;
 }
 main .introduction {
   width: 100%;
@@ -135,6 +136,7 @@ main .introduction img {
 }
 .container-expansive .wrap-title h3 {
   display: inline-block;
+  font-size: 1.17em;
 }
 .container-expansive .wrap-content {
   padding: 20px 40px 20px 40px;
@@ -179,6 +181,15 @@ main .introduction img {
   border-color: #479AFA;
 }
 
+.title-img {
+  display: flex;
+  justify-content: space-between;
+}
+.title-img #canto-bolinhas {
+  height: 100px;
+  transform: translateY(60px);
+}
+
 h1, h2, h3 {
   font-family: "ClearSans-Light";
   font-weight: inherit;
@@ -187,6 +198,12 @@ h1, h2, h3 {
 h2 {
   margin-block: 0.83em;
   font-size: 3em;
+}
+
+h3 {
+  margin-block: 0.83em;
+  font-size: 2em;
+  text-align: center;
 }
 
 @media (min-width: 687px) {

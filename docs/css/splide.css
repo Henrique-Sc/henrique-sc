@@ -1,0 +1,92 @@
+.splide {
+  margin: 0 40px 0 40px;
+}
+.splide .splide__arrow {
+  background: transparent;
+  opacity: inherit;
+}
+.splide .splide__arrow svg {
+  fill: white;
+}
+.splide .splide__arrow--prev {
+  left: -30px;
+}
+.splide .splide__arrow--next {
+  right: -30px;
+}
+.splide .my-slider-progress {
+  background: #FFF;
+}
+.splide .my-slider-progress .my-slider-progress-bar {
+  background: #479AFA;
+  height: 2px;
+  transition: width 400ms ease;
+}
+.splide .splide__slide {
+  height: 250px;
+  width: 360px;
+  word-wrap: break-word;
+}
+.splide .splide__slide .content {
+  height: 100%;
+}
+.splide .splide__slide .content .title {
+  font-size: 1.17em;
+  font-family: "ClearSans-Light";
+  margin-block-end: 10px;
+}
+.splide .splide__slide .content span.negrito {
+  font-family: "ClearSans-Light";
+}
+.splide .splide__slide .content .informations {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.splide .splide__slide .content .informations .link {
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.splide .splide__slide .content .informations .technologies .technology {
+  margin-right: 10px;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha {
+  display: inline-block;
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 100%;
+  background-color: white;
+  margin-right: 0.25em;
+  margin-top: 0.1em;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.html {
+  background-color: #E34C26;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.scss {
+  background-color: #C6538C;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.javascript {
+  background-color: #F1E05A;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.php {
+  background-color: #4F5D95;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.jupyter {
+  background-color: #DA5B0B;
+}
+.splide .splide__slide .content .informations .technologies .technology span.bolinha.python {
+  background-color: #3572A5;
+}
+
+#splide__drawing .content img {
+  width: 100%;
+}
+#splide__drawing .my-slider-progress {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=splide.css.map */

@@ -95,6 +95,9 @@
 
 #splide__drawing {
     .content {
+        background-color: gray;
+        border-radius: 20px;
+        overflow: hidden;
         img {
             width: 100%;
         }

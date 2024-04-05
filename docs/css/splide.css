@@ -82,6 +82,11 @@
   background-color: #3572A5;
 }
 
+#splide__drawing .content {
+  background-color: gray;
+  border-radius: 20px;
+  overflow: hidden;
+}
 #splide__drawing .content img {
   width: 100%;
 }

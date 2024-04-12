@@ -56,19 +56,6 @@ body {
   line-height: 100%;
   transform: translateY(-40%);
 }
-@media only screen and (max-width: 540px) {
-  .navbar .left-content {
-    display: flex;
-    align-items: center;
-  }
-  .navbar .left-content img {
-    display: none;
-  }
-  .navbar .left-content h1 {
-    transform: none;
-    height: initial;
-  }
-}
 .navbar .right-content {
   height: 100%;
   display: flex;
@@ -83,9 +70,10 @@ body {
 main {
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
-main .introduction {
+
+.introduction {
   width: 100%;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -93,28 +81,28 @@ main .introduction {
   justify-content: space-between;
   align-items: center;
 }
-main .introduction .wrap-text {
+.introduction .wrap-text {
   max-width: 500px;
   float: left;
 }
-main .introduction .wrap-text .welcome {
+.introduction .wrap-text .welcome {
   font-size: 5em;
   margin: 0;
 }
-main .introduction .wrap-text .about-me {
+.introduction .wrap-text .about-me {
   border-left: #479AFA 2px solid;
   padding-left: 20px;
 }
-main .introduction .wrap-text .about-me p {
+.introduction .wrap-text .about-me p {
   display: block;
   margin-block-end: 10px;
 }
 @media only screen and (max-width: 740px) {
-  main .introduction img {
+  .introduction img {
     display: none;
   }
 }
-main .introduction img {
+.introduction img {
   height: 175px;
 }
 
@@ -125,6 +113,7 @@ main .introduction img {
 .container-expansive .wrap-title {
   cursor: pointer;
   user-select: none;
+  padding-left: 10px;
 }
 .container-expansive .wrap-title .icon-caret {
   font-size: 1.17em;
@@ -137,6 +126,7 @@ main .introduction img {
 .container-expansive .wrap-title h3 {
   display: inline-block;
   font-size: 1.17em;
+  padding: 0;
 }
 .container-expansive .wrap-content {
   padding: 20px 40px 20px 40px;
@@ -149,7 +139,7 @@ main .introduction img {
 }
 .container-expansive .wrap-content .wrap-item {
   display: block;
-  max-width: 250px;
+  max-width: 240px;
   height: 130px;
   border-color: #FFF;
   display: flex;
@@ -160,7 +150,7 @@ main .introduction img {
 .container-expansive .wrap-content .wrap-item:hover {
   transform: scale(1.02);
 }
-.container-expansive .wrap-content .wrap-item img {
+.container-expansive .wrap-content .wrap-item .img-container-expansive {
   float: left;
   margin: 10px;
   width: 100px;
@@ -203,7 +193,7 @@ h2 {
 h3 {
   margin-block: 0.83em;
   font-size: 2em;
-  text-align: center;
+  padding-left: 38px;
 }
 
 @media (min-width: 687px) {
@@ -225,6 +215,97 @@ h3 {
   }
   .wrap-content {
     grid-template-columns: repeat(4, 250px);
+  }
+}
+@media only screen and (max-width: 687px) {
+  body {
+    font-size: 16px;
+  }
+  .wrap-content {
+    grid-template-columns: repeat(2, 200px);
+  }
+  .container-expansive .wrap-content .wrap-item {
+    max-width: 200px;
+    height: 110px;
+  }
+  .container-expansive .wrap-content .wrap-item .img-container-expansive {
+    width: 75px;
+  }
+  .title-img #canto-bolinhas {
+    height: 75px;
+  }
+}
+@media only screen and (max-width: 587px) {
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    display: block;
+  }
+  .navbar .left-content {
+    height: initial;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .left-content .quadrado-hachurado {
+    height: 80px;
+  }
+  .navbar .left-content .canto {
+    height: 53px;
+    transform: translate(-40px, 27px);
+  }
+  .navbar .left-content h1 {
+    transform: none;
+  }
+  .navbar .right-content {
+    float: none;
+    margin-top: 40px;
+  }
+  .introduction .wrap-text .welcome {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .wrap-content {
+    grid-template-columns: repeat(2, 180px);
+    gap: 20px 30px !important;
+  }
+  .container-expansive .wrap-content .wrap-item {
+    max-width: 180px;
+    height: 100px;
+  }
+  .container-expansive .wrap-content .wrap-item .title {
+    margin: 0 !important;
+  }
+  .container-expansive .wrap-content .wrap-item .img-container-expansive {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 488px) {
+  .wrap-content {
+    grid-template-columns: repeat(1, 220px);
+    gap: 30px !important;
+  }
+  .container-expansive .wrap-content .wrap-item {
+    max-width: 230px;
+    height: 110px;
+  }
+  .container-expansive .wrap-content .wrap-item .title {
+    margin: 0 !important;
+  }
+  .container-expansive .wrap-content .wrap-item .img-container-expansive {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 15px;
+  }
+  .introduction .wrap-text .welcome {
+    font-size: 3.5em;
   }
 }
 

@@ -14,9 +14,8 @@ function splide() {
         gap: '50px',
         pagination: false,
     })
-    var bar = splide__software.root.querySelector('.my-slider-progress-bar');
 
-    // Updates the bar width whenever the carousel moves:
+    var bar = splide__software.root.querySelector('.my-slider-progress-bar');
     splide__software.on( 'mounted moved', function () {
         var end  = splide__software.Components.Controller.getEnd() + 1;
         var rate = Math.min( ( splide__software.index + 1 ) / end, 1 );
@@ -29,7 +28,6 @@ function splide() {
         bar.style.width = String( 100 * rate ) + '%';
     } );
     
-
     splide__software.mount()
    
    
@@ -43,23 +41,9 @@ function splide() {
         padding: {right: '50px'},
         gap: '50px',
         pagination: false,
-        // wheel: true,
-        // breakpoints: {
-        //     640: {
-        //       perPage: 2,
-        //       gap    : '.7rem',
-        //       height : '6rem',
-        //     },
-        //     480: {
-        //       perPage: 1,
-        //       gap    : '.7rem',
-        //       height : '6rem',
-        //     },
-        // },
     })
+
     var bar__drawing = splide__drawing.root.querySelector('.my-slider-progress-bar');
-    console.log(bar__drawing);
-    // Updates the bar width whenever the carousel moves:
     splide__drawing.on( 'mounted move', function () {
         var end  = splide__drawing.Components.Controller.getEnd() + 1;
         var rate = Math.min( ( splide__drawing.index + 1 ) / end, 1 );

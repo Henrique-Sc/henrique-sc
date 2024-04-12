@@ -1,5 +1,5 @@
 .splide {
-    margin: 0 40px 0 40px;
+    margin: 0 40px 50px 40px;
     
     .splide__arrow {
         background: transparent;
@@ -104,5 +104,54 @@
     }
     .my-slider-progress {
         margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    h3 {
+        padding-left: 28px;
+    }
+    .splide {
+        margin: 0 30px 50px 30px !important;
+        .splide__track {
+            padding: 0 !important;
+        }
+        
+        .splide__slide {
+            margin-right: 25px !important;
+        }
+    }
+    #splide__software .splide__slide .content {
+        width: 75vw !important;
+    }
+    .technology {
+        display: inline-block;
+    }
+
+}
+@media only screen and (max-width: 466px) {
+    #splide__drawing {
+        .splide__slide {
+            width: 72vw !important;
+            height: calc(72vw / 1.4);
+            .content {
+                aspect-ratio: 36/25 !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 423px) {
+    h3 {
+        padding-left: 18px;
+    }
+    .splide {
+        margin: 0 20px 50px 20px !important;
+        .splide__track {
+            margin-bottom: 20px;
+        }
+        .splide__slide {
+            // height: initial;
+            height: 230px;
+        }
     }
 }

@@ -102,9 +102,11 @@
 
 #splide__drawing {
     .content {
-        background-color: gray;
+        background-color: white;
         border-radius: 20px;
         overflow: hidden;
+        display: flex;
+        align-items: center;
         img {
             width: 100%;
         }

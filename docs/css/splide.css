@@ -87,9 +87,11 @@
 }
 
 #splide__drawing .content {
-  background-color: gray;
+  background-color: white;
   border-radius: 20px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 #splide__drawing .content img {
   width: 100%;

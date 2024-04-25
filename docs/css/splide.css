@@ -23,7 +23,6 @@
   transition: width 400ms ease;
 }
 .splide .splide__slide {
-  height: 250px;
   width: 360px;
   word-wrap: break-word;
 }
@@ -53,6 +52,7 @@
 }
 .splide .splide__slide .content .informations .technologies .technology {
   margin-right: 10px;
+  display: inline-block;
 }
 .splide .splide__slide .content .informations .technologies .technology span.bolinha {
   display: inline-block;
@@ -80,6 +80,10 @@
 }
 .splide .splide__slide .content .informations .technologies .technology span.bolinha.python {
   background-color: #3572A5;
+}
+
+#splide__software .my-slider-progress {
+  margin-top: 30px;
 }
 
 #splide__drawing .content {
@@ -129,12 +133,6 @@
   }
   .splide {
     margin: 0 20px 50px 20px !important;
-  }
-  .splide .splide__track {
-    margin-bottom: 20px;
-  }
-  .splide .splide__slide {
-    height: 230px;
   }
 }
 

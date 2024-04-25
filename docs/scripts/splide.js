@@ -6,6 +6,7 @@ function splide() {
     var splide__software = new Splide('#splide__software', {
         type: 'loop',
         autoWidth: true,
+        autoHeight: true,
         perPage: 2,
         perMove: 1,
         drag: 'free',

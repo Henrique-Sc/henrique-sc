@@ -3,14 +3,14 @@
   <h2>developerName = "Henrique"</h2>
 </div>
 
-- 🎒 Estou cursando Técnico de Infomática
-- 💻 Pretendo fazer Desenvolvimento de Sistemas
-- 👨‍💻 Sou apaixonado em back-end
-- 🐍 Minha primeira linguagem de programação que aprendi foi Python
-- 🐘 Comecei a aprender JavaScript e PHP e já estou amando
-- 📧 Contate-me: <a href="mailto:henriquesc1442@gmail.com">henriquesc1442@gmail.com</a> | <a href="https://www.linkedin.com/in/henrique-silva-costa/">LinkedIn</a>
+---
+
+🎓 **Estudante de Mecatrônica** | 🤖 Entusiasta de Robótica e Automação  
+💡 Gosto de transformar ideias em projetos práticos, unindo programação e eletrônica embarcada
 
 ---
+
+
 
 <div align="center">
   <a href="https://github.com/Henrique-sc">

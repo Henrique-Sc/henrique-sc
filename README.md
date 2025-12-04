@@ -98,4 +98,4 @@
 -->
 
 
-![Snake animation](https://github.com/Henrique-Sc/henrique-sc/blob/output/github-contribution-grid-snake.svg)
+<!-- ![Snake animation](https://github.com/Henrique-Sc/henrique-sc/blob/output/github-contribution-grid-snake.svg) -->

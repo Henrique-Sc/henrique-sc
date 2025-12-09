@@ -9,8 +9,6 @@
 💡 Gosto de transformar ideias em projetos práticos, unindo programação e eletrônica embarcada
 
 
-
-
 <!-- <div align="center">
   <a href="https://github.com/Henrique-sc">
     <img height="200em" width="420em" src="https://github-readme-stats.vercel.app/api?username=Henrique-Sc&show_icons=true&theme=dark&include_all_commits=false&count_private=true"/>
@@ -59,6 +57,7 @@
 </picture>
 
 
+[Conheça o meu portifólio!](https://henrique-sc.github.io/henrique-sc)
 
  <!--
  ### 💬 Liguagens:

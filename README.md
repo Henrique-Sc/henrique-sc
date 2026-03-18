@@ -5,7 +5,8 @@
 
 ---
 
-🎓 **Estudante de Mecatrônica** | 🤖 Entusiasta de Robótica e Automação  
+🎓 **Técnico em Mecatrônica | Estudante de Engenharia de Controle e Automação** 
+🤖 Entusiasta de Robótica e Automação  
 💡 Gosto de transformar ideias em projetos práticos, unindo programação e eletrônica embarcada
 
 
